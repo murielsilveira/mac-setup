@@ -1,0 +1,2 @@
+- name: Install dash
+  homebrew_cask: name=dash

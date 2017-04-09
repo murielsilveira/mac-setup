@@ -14,6 +14,10 @@
     - include: tasks/visual-studio-code.yml
     - include: tasks/iterm.yml
     - include: tasks/diffmerge.yml
+    - include: tasks/diff-so-fancy.yml
+    - include: tasks/sourcetree.yml
+    - include: tasks/gpgtools.yml
+    - include: tasks/dash.yml
 
     # browsers
     - include: tasks/chrome.yml
@@ -34,6 +38,8 @@
     - include: tasks/node.yml
     - include: tasks/python.yml
     - include: tasks/ruby.yml
+    - include: tasks/elixir.yml
+    - include: tasks/elm.yml
 
     # chat
     - include: tasks/skype.yml

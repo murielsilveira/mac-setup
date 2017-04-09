@@ -1,0 +1,5 @@
+- name: Install Elm
+  homebrew: name=elm
+
+- name: Install Elm format
+  homebrew: name=elm-format

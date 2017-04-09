@@ -1,0 +1,2 @@
+- name: Install elixir
+  homebrew: name=elixir

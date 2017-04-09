@@ -1,0 +1,2 @@
+- name: Install diff-so-fancy.yml
+  homebrew: name=diff-so-fancy

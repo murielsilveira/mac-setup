@@ -1,0 +1,2 @@
+- name: Install SourceTree
+  homebrew_cask: name=sourcetree
