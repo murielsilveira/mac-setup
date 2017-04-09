@@ -1,0 +1,5 @@
+- name: Install Firefox
+  homebrew_cask: name=firefox
+
+- name: Install Firefox Nightly
+  homebrew_cask: name=firefoxnightly

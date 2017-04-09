@@ -1,0 +1,2 @@
+- name: Install DiffMerge
+  homebrew_cask: name=diffmerge

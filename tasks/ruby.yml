@@ -1,0 +1,5 @@
+- name: Install Ruby
+  package: name=ruby
+
+- name: Install rbenv
+  package: name=rbenv

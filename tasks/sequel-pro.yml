@@ -1,0 +1,2 @@
+- name: Install Sequel Pro
+  homebrew_cask: name=sequel-pro

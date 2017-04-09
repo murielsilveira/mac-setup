@@ -1,0 +1,44 @@
+- name: Install core packages
+  package: name={{ item }}
+  with_items:
+    - curl
+    - git
+    - htop
+    - vim
+    - wget
+    - zsh
+    - ncdu
+    - tree
+    - coreutils
+    - findutils
+    - gawk
+    - gnu-getopt
+    - gnu-indent
+    - gnu-sed
+    - gnu-tar
+    - gnutls
+    - gpg
+    - grc
+    - pstree
+    - unrar
+    - watch
+
+- name: Install apps
+  homebrew_cask: name={{ item }}
+  with_items:
+    - appcleaner
+    - day-o
+    - spectacle
+    - caffeine
+    # https://github.com/sindresorhus/quick-look-plugins
+    - betterzipql
+    - qlcolorcode
+    - qlimagesize
+    - qlvideo
+    - qlmarkdown
+    - qlprettypatch
+    - qlstephen
+    - quicklook-csv
+    - quicklook-json
+    - suspicious-package
+    - webpquicklook

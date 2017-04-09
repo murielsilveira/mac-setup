@@ -1,0 +1,5 @@
+- name: Install Python
+  package: name=python
+
+- name: Install PyEnv
+  package: name=pyenv

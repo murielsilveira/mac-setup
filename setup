@@ -1,0 +1,33 @@
+#!/bin/bash
+echo "Starting setup"
+
+if test "$(uname)" = "Darwin"; then
+  if test ! $(which gcc); then
+    echo "Installing xcode..."
+    xcode-select --install
+  fi
+
+  if test ! "$(which brew)"; then
+    echo "Installing homebrew..."
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  else
+    echo "Updating homebrew..."
+    brew update
+  fi
+
+  if test ! "$(which ansible)"; then
+    echo "Installing ansible..."
+    brew install ansible
+  else
+    echo "Updating ansible..."
+    brew upgrade ansible
+  fi
+else
+  echo "Mac only."
+  exit 1
+fi
+
+python --version
+ansible --version
+ansible-playbook main.yml -v
+# test -d ~/.dotfiles && cd $_ && ./script/bootstrap

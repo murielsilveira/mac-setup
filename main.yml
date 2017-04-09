@@ -1,0 +1,46 @@
+- hosts: localhost
+  tasks:
+    # essentials:
+    - include: tasks/homebrew.yml
+    - include: tasks/core.yml
+    # - include: tasks/dotfiles.yml
+
+    #
+    # specific stuff than can be commented out
+    #
+    # editors, IDEs, terminals, etc
+    - include: tasks/atom.yml
+    - include: tasks/sublime-text.yml
+    - include: tasks/visual-studio-code.yml
+    - include: tasks/iterm.yml
+    - include: tasks/diffmerge.yml
+
+    # browsers
+    - include: tasks/chrome.yml
+    - include: tasks/firefox.yml
+    - include: tasks/safari.yml
+
+    # database
+    - include: tasks/sequel-pro.yml
+
+    # tools
+    - include: tasks/awscli.yml
+    - include: tasks/docker.yml
+    - include: tasks/ngrok.yml
+    - include: tasks/vpn.yml
+
+    # languages
+    - include: tasks/golang.yml
+    - include: tasks/node.yml
+    - include: tasks/python.yml
+    - include: tasks/ruby.yml
+
+    # chat
+    - include: tasks/skype.yml
+    - include: tasks/slack.yml
+    - include: tasks/telegram.yml
+    - include: tasks/whatsapp.yml
+
+    # media
+    - include: tasks/spotify.yml
+    - include: tasks/vlc.yml
