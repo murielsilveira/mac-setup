@@ -1,0 +1,2 @@
+- name: Install Simple HTTP/2 Server
+  homebrew: name=simplehttp2server

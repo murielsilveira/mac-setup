@@ -19,6 +19,9 @@
     - include: tasks/sourcetree.yml
     - include: tasks/gpgtools.yml
     - include: tasks/dash.yml
+    - include: tasks/postman.yml
+    - include: tasks/simplehttp2server.yml
+    - include: tasks/rescue-time.yml
 
     # browsers
     - include: tasks/chrome.yml
