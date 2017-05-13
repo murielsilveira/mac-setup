@@ -12,6 +12,7 @@
     - include: tasks/atom.yml
     - include: tasks/sublime-text.yml
     - include: tasks/visual-studio-code.yml
+    - include: tasks/intellij.yml
     - include: tasks/iterm.yml
     - include: tasks/diffmerge.yml
     - include: tasks/diff-so-fancy.yml
@@ -40,6 +41,7 @@
     - include: tasks/ruby.yml
     - include: tasks/elixir.yml
     - include: tasks/elm.yml
+    - include: tasks/java.yml
 
     # chat
     - include: tasks/skype.yml
