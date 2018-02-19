@@ -24,6 +24,10 @@
     # ADD brew install jq
     # ADD brew install cheat
     
+    # https://github.com/pstadler/keybase-gpg-github
+    # ADD brew install gpg
+    # ADD brew cask install keybase
+    
     # https://github.com/technicalpickles/homesick
 
     # browsers
