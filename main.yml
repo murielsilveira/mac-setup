@@ -23,7 +23,8 @@
     # ADD brew install yank
     # ADD brew install jq
     # ADD brew install cheat
-    
+    # ADD brew install tokei
+
     # https://github.com/pstadler/keybase-gpg-github
     # https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-mail
     # ADD brew install gpg
